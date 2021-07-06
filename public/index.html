@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBurguer</title>
+    <!-- Font --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Favicon -->    
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="content__loader">
+            <img src="./assets/img/preloader.gif" alt="Preloader">
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <a href="">
+                <img src="./assets/img/logo.svg" alt="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu__resp">
+                <a href="javascript:void(0)">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="introduction" id="home">
+        <video autoplay muted loop>
+            <source src="./assets/video/hamburguer.mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="intro__text container">
+            <h2>Este é o Dev<span style="color: var(--red);">Burguer</span> Restaurante</h2>
+            <span class="bar"></span>
+            
+            <h1 class="gradient_text">Servimos os melhores hambúrgueres de todo o universo.</h1>
+
+            <a href="#scroll__about">
+                <img src="./assets/img/scroll.svg" alt="scroll">
+            </a>
+        </div>
+    </section>
+    
+    <section class="intro__about" id="scroll__about">
+        <div class="container grid__intro__about">
+            <div>
+                <h2 id="text__intro__about">Deliciosos hambúrgueres feito com amor desde 2010</h2>
+                <span class="bar" style="padding: 0 3rem;"></span>
+                <a href="#menu">Vizualizar Menu <i class="fas fa-arrow-down"></i></a>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum modi inventore corporis ducimus ipsum. Libero ratione sed itaque maiores. Voluptatum voluptatibus, nostrum dicta similique rem a eos repellendus unde velit explicabo, fugiat illo sit molestiae facilis assumenda nam optio quisquam!</p>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ex architecto eius beatae hic. Minus voluptates quasi beatae, pariatur dolorum voluptatem quia nulla quas illum reiciendis? Natus, quo illo? Laboriosam.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="content__feedback" id="grid__feedback">
+            <article>
+                <div class="profile">
+                    <img src="./assets/img/profile1.jpg" alt="Profile">
+                    <div>
+                        <span class="name">Julian</span>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur voluptatem laboriosam nesciunt facilis tempora ipsa similique ab eligendi minus."</p>
+                </div>
+            </article>
+            <article>
+                <div class="profile">
+                    <img src="./assets/img/profile2.jpg" alt="Profile">
+                    <div>
+                        <span class="name">Dominique</span>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur voluptatem laboriosam nesciunt facilis tempora ipsa similique ab eligendi minus."</p>
+                </div>
+            </article>
+            <article>
+                <div class="profile">
+                    <img src="./assets/img/profile3.jpg" alt="Profile">
+                    <div>
+                        <span class="name">Elizabeth</span>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur voluptatem laboriosam nesciunt facilis tempora ipsa similique ab eligendi minus."</p>
+                </div>
+            </article>
+            <article>
+                <div class="profile">
+                    <img src="./assets/img/profile4.jpg" alt="Profile">
+                    <div>
+                        <span class="name">Karol</span>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur voluptatem laboriosam nesciunt facilis tempora ipsa similique ab eligendi minus."</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Menu</h2>
+            <span class="bar" style="padding: 0 3rem;"></span>
+
+            <div class="content__menu">
+                <div class="card__menu">
+                    <div class="img__card__menu">
+                        <img src="./assets/img/burguer1.jpg" alt="hamburguer">
+                    </div>
+                    <div class="text__card__menu">
+                        <h3>Cream cheese Duplo</h3>
+                        <div>
+                            <span class="ingredient">
+                                Pão de brioche, crean cheese (Original), 2 carne artesanal , queijo prato , bacon crocante.
+                            </span>
+                        </div>
+                        <div><br />
+                            <span class="price"> R$ 24,99 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__menu">
+                    <div class="img__card__menu">
+                        <img src="./assets/img/burguer2.jpg" alt="hamburguer">
+                    </div>
+                    <div class="text__card__menu">
+                        <h3>Artesanal Salad Barbecue</h3>
+                        <div>
+                            <span class="ingredient">
+                                Pao de brioche especial, carne artesanal saborosa, cheddar cremoso, molho barbecue inglês, alface, tomate.
+                            </span>
+                        </div>
+                        <div><br />
+                            <span class="price"> R$ 17,99 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__menu">
+                    <div class="img__card__menu">
+                        <img src="./assets/img/burguer3.jpg" alt="hamburguer">
+                    </div>
+                    <div class="text__card__menu">
+                        <h3>Duplo Bacon Z</h3>
+                        <div>
+                            <span class="ingredient">
+                                Pao de brioche especial, 2 carnes artesanais, bacon crocante, 2 queijo prato , maionese defumada.
+                            </span>
+                        </div>
+                        <div><br />
+                            <span class="price"> R$ 27,99 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__menu">
+                    <div class="img__card__menu">
+                        <img src="./assets/img/burguer4.jpg" alt="hamburguer">
+                    </div>
+                    <div class="text__card__menu">
+                        <h3>Mega 200 Bacon</h3>
+                        <div>
+                            <span class="ingredient">
+                                Pao de brioche Especial, 200 gramas de carne Artesanal saborosa, bacon crocante, molho barbecue.
+                            </span>
+                        </div>
+                        <div><br />
+                            <span class="price"> R$ 31,99 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__menu">
+                    <div class="img__card__menu">
+                        <img src="./assets/img/burguer5.jpg" alt="hamburguer">
+                    </div>
+                    <div class="text__card__menu">
+                        <h3>Bacon X</h3>
+                        <div>
+                            <span class="ingredient">
+                                Pao de brioche especial, carne artesanal saborosa, bacon crocante, queijo cheddar, molho barbecue.
+                            </span>
+                        </div>
+                        <div><br />
+                            <span class="price"> R$ 24,99 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__menu">
+                    <div class="img__card__menu">
+                        <img src="./assets/img/burguer6.jpg" alt="hamburguer">
+                    </div>
+                    <div class="text__card__menu">
+                        <h3>Delfino burger</h3>
+                        <div>
+                            <span class="ingredient">
+                                Pao de brioche especial, carne artesanal, queijo derretido, maionese defumada.
+                            </span>
+                        </div>
+                        <div><br />
+                            <span class="price"> R$ 24,99 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="gradient_text">Fique por dentro de tudo! <i class="far fa-share-square"></i></h2>
+            <div class="form__news">
+                <form action="">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="submit" id="btn_news" value="Cadastrar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+            <img src="./assets/img/gallery1.jpg" alt="Gallery">
+            <img src="./assets/img/gallery3.jpg" alt="Gallery">
+            <img src="./assets/img/gallery5.jpg" alt="Gallery">
+            <img src="./assets/img/gallery7.jpg" alt="Gallery">
+            <img src="./assets/img/gallery2.jpg" alt="Gallery">
+            <img src="./assets/img/gallery4.jpg" alt="Gallery">
+            <img src="./assets/img/gallery6.jpg" alt="Gallery">
+            <img src="./assets/img/gallery8.jpg" alt="Gallery">
+    </section>
+    <div class="box__gallery">
+        <div class="container box">
+            <div class="close__box__gallery">
+                <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="box__img">
+                <img src="" alt="Gallery">
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254992.6255768104!2d-60.065305350586435!3d-3.024768171832127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1bc8b37647b7%3A0x2b485c9ff765a9cc!2sManaus%2C%20AM!5e0!3m2!1spt-BR!2sbr!4v1625546913742!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="content_contact">
+            <h2>Contato</h2>
+            <span class="bar alter__color" style="padding: 0 3rem;"></span>
+            
+            <ul>
+                <li>Avenida Dom Pedro</li>
+                <li>69000000</li>
+                <li>(+55) 92 99000-0000</li>
+                <li>ericnevesr@gmail.com</li>
+                <li>Obs: Estabelecimento aberto todos os dias.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer container">
+            <div class="footer__about">
+                <h3>About</h3>
+                <span class="bar" style="padding: 0 3rem;"></span>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum dolore quis consequuntur minus nisi voluptas. Quod officia recusandae ab.</p>
+            </div>
+            <div class="footer__contact">
+                <h3>Contact</h3>
+                <span class="bar" style="padding: 0 3rem;"></span>
+
+                <ul>
+                    <li>Avenida Dom Pedro</li>
+                    <li>69000000</li>
+                    <li>(+55) 92 99000-0000</li>
+                    <li>ericnevesr@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <h3>Network</h3>
+                <span class="bar" style="padding: 0 3rem;"></span>
+
+                <ul>
+                    <li>
+                        <a href="https://github.com/ericneves" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ericnevesrr/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/eric_nevesr/" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom container">
+            <p>Copyright &copy; 2021 Eric Neves.</p>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="./assets/js/master.js"></script>
+</body>
+</html>
