@@ -9,7 +9,7 @@
 
 ### 💻 Executando
 
-```bash
+```sh
 # Link: https://devburguer.netlify.app/
 
 # Clone Repository
