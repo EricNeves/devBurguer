@@ -20,4 +20,6 @@ $ npm start
 
 ![Recorder](./github/recorder.gif)
 
+### 📝 License
 
+![Badge](https://img.shields.io/github/license/ericneves/dev-burguer?style=flat-square&logo=appveyor)
