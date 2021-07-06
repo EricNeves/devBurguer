@@ -36,7 +36,7 @@ const openBoxGallery = () => {
 openBoxGallery()
 
 const scrolled = () => {
-    if ( window.scrollY >= 220 )
+    if ( window.scrollY >= 100 )
         header.classList.add('active')
     else
         header.classList.remove('active')
