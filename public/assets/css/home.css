@@ -461,18 +461,20 @@ footer {
 .footer__social ul {
     margin-top: 1rem;
 }
-.footer__contact ul li{
+.footer__contact ul li {
     margin-bottom: .5rem;
 }
-.footer__social ul li{
+.footer__social ul li {
     display: inline-block;
 }
-.footer__social li a{
+.footer__social li a {
     color: var(--light);
     font-size: 1.5rem;
-}
-.footer__social ul li a{
     margin-right: .6rem;
+    transition: .2s ease;
+}
+.footer__social li a:hover {
+    color: var(--red);
 }
 .footer__bottom {
     color: var(--light);
