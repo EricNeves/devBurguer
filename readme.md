@@ -18,5 +18,6 @@ $ cd Dev-Burguer && npm install
 $ npm start
 ```
 
+![Recorder](./github/recorder.gif)
 
 
