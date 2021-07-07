@@ -598,6 +598,15 @@ footer {
     .form__news #btn_news {
         font-size: 1.2rem;
     }
+    .menu__resp__active li {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        justify-content: space-between;
+    }
 }
 @media (max-width: 350px) {
     #text__intro__about {
