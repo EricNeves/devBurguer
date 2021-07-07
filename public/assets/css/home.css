@@ -502,13 +502,14 @@ footer {
 }   
 
 /* Media Query */
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
+    #text__intro__about {
+        margin-top: 3rem;
+    }
     .content__menu {
         grid-template-columns: repeat(2, 1fr);
     }
-}
-@media (max-width: 1024px) {
-    .grid__intro__about{
+    .grid__intro__about {
         grid-template-columns: repeat(1, 1fr);
         padding: 2rem 0;
     }
