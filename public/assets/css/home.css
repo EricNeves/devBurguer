@@ -274,6 +274,9 @@ header nav ul li:not(:last-child) {
     box-shadow: 0 0 4px var(--gray);
     border-radius: .2rem;
 }
+.card__menu:hover {
+    box-shadow: 4px 4px 20px var(--gray);
+}
 .img__card__menu {
     width: 100%;
     height: 20rem;
