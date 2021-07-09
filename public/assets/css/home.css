@@ -285,10 +285,6 @@ header nav ul li:not(:last-child) {
     transition: .3s linear;
     border-top-right-radius: .2rem;
     border-top-left-radius: .2rem;
-    opacity: .8;
-}
-.card__menu:hover img {
-    opacity: 1;
 }
 .text__card__menu{
     padding: 2rem 1rem;
