@@ -123,7 +123,7 @@ header nav ul li:not(:last-child) {
     top: 0;
     left: 0;
     background: var(--dark);
-    opacity: .85;
+    opacity: .7;
     z-index: -2;
 }
 .intro__text {
