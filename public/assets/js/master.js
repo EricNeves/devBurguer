@@ -25,6 +25,7 @@ clickMenuLink()
 const openBoxGallery = () => {
     btnOpenBoxGallery.forEach(item => {
         item.onclick = () => {
+            header.classList.add('active')
             boxGallery.classList.add('active')
             imageBox.src = item.src
         }
