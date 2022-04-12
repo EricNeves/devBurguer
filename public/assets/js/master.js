@@ -11,6 +11,7 @@ const header             = document.querySelector('header')
 
 const handleClick = () => {
     menuResp.classList.toggle('menu__resp__active')
+    header.classList.add('active')
 }
 
 const clickMenuLink = () => {
@@ -25,7 +26,6 @@ clickMenuLink()
 const openBoxGallery = () => {
     btnOpenBoxGallery.forEach(item => {
         item.onclick = () => {
-            header.classList.add('active')
             boxGallery.classList.add('active')
             imageBox.src = item.src
         }
