@@ -14,6 +14,16 @@ module.exports = {
         filename: '[name][contenthash].js',
         clean: true
     },
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname, 'dist')
+        },
+        open: true,
+        port: 3000,
+        hot: true,
+        compress: true,
+        historyApiFallback: true
+    },
     plugins: [
         new HtmlWebapckPlugin({
             template: 'src/index.html',
