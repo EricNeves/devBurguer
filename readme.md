@@ -1,4 +1,4 @@
-![DevBurguer](./github/logo.svg)
+![DevBurguer](.github/logo.svg)
 
 <p>
 <img src="https://img.shields.io/github/last-commit/ericneves/dev-burguer?style=flat-square&logo=appveyor">
@@ -14,11 +14,15 @@
 # Link: https://devburguer.netlify.app/
 
 # Clone Repository
-$ git clone git@github.com:EricNeves/Dev-Burguer.git
-
-$ cd Dev-Burguer && npm install
-
+$ git clone git@github.com:EricNeves/devBurguer.git
+# Install
+$ cd devBurguer && npm install
+# Execute
 $ npm start
+# Execute as dev
+$ npm run dev
+# Build
+$ npm run build
 ```
 
 ![Recorder](.github/screenshot.PNG)
