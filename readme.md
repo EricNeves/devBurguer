@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/github/license/ericneves/dev-burguer?style=flat-square&logo=appveyor">
 </p>
 
-#### [DevBurguer](https://devburguer.netlify.app/), uma hambúrgueria fictícia, que oferece os melhores hambúrgueres de todo o universo. O site foi desenvolvido com HTML5, CSS3 e Javascript, utilizando recursos como Flex-Box e CSS-Grid. 
+<p><a href="https://devburguer.netlify.app/">[DevBurguer]</a>, uma hambúrgueria fictícia, que oferece os melhores hambúrgueres de todo o universo. O site foi desenvolvido com HTML5, CSS3 e Javascript, utilizando recursos como Flex-Box e CSS-Grid. </p>
 
 ### 💻 Executando
 
