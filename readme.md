@@ -10,7 +10,7 @@
 
 ![Recorder](.github/screenshot.PNG)
 
-### 💻 Executando
+#### 💻 Executando
 
 ```sh
 # Link: https://devburguer.netlify.app/
@@ -27,6 +27,6 @@ $ npm run dev
 $ npm run build
 ```
 
-### 📝 License
+#### 📝 License
 
 ![Badge](https://img.shields.io/github/license/ericneves/dev-burguer?style=flat-square&logo=appveyor)
